@@ -1,10 +1,11 @@
 class Trae extends Plante{
   
-  Trae( float _x,float _y, float _s, float _vaekst){
-    super (_x, _y, _s, _vaekst);
+  Trae( float _x,float _y, float _w, float _h, float _vaekst){
+    super (_x, _y, _w, _h, _vaekst);
   }
   
   void display(){
-    square(x, y, s);
+    image(Trae, x, y, w, h);
+    //square(x, y, s);
   }  
 }
