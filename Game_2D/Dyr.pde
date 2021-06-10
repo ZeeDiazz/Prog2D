@@ -1,7 +1,5 @@
 class Dyr{
-  float x;
-  float y;
-  float speed;
+  float x, y, speed;
   
   Dyr( float _x,float _y, float _speed){
   x = _x;
@@ -13,6 +11,7 @@ class Dyr{
   void display() {
    background(64);
   }
+  
   void update(){
     if (x > width || x < 0){
       speed *= -1;
