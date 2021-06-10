@@ -14,10 +14,10 @@ class Verden {
      
    void LavPlante(){
      if(key == 'b' && mousePressed == true){
-       listePlante.add(new Busk(mouseX,mouseY, 4, 3));
+       listePlante.add(new Busk(mouseX,mouseY, 4, 0.008));
      }
      if(key == 't' && mousePressed == true){
-       listePlante.add(new Trae(mouseX,mouseY, 7, 2));
+       listePlante.add(new Trae(mouseX,mouseY, 7, 0.002));
      }
   }
 
