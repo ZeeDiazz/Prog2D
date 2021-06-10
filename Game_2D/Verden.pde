@@ -2,16 +2,17 @@ class Verden {
   ArrayList<Dyr> listeDyr = new ArrayList<Dyr>();
   ArrayList<Plante> listePlante = new ArrayList<Plante>();
   ArrayList<Terrain> listeTerrain = new ArrayList<Terrain>();
+  float a = -1; 
   
   void LavObjekter(){
     
       //Dyr hund
      if(key == 'h' && mousePressed == true){
-        listeDyr.add(new Hund(mouseX,mouseY, 7));
+        listeDyr.add(new Hund(mouseX,mouseY, (random(-7,7)* -a), (random(-4,4)* -a)));
      }
      //Dyr kat
      if(key == 'k' && mousePressed == true){
-        listeDyr.add(new Kat(mouseX,mouseY, 4));
+        listeDyr.add(new Kat(mouseX,mouseY, random(-4,4)* -a, random(-2,2)* -a));
       }
       //busk
      if(key == 'b' && mousePressed == true){

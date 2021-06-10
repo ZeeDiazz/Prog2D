@@ -1,6 +1,6 @@
 Verden v = new Verden();
 void setup(){
-  size(500,500);
+  size(800,800);
   ellipseMode(RADIUS);
   rectMode(CENTER);
   

@@ -1,11 +1,10 @@
 class Kat extends Dyr{
   
-   Kat( float _x,float _y, float _speed){
-    super (_x, _y, _speed);
+   Kat( float _x,float _y, float _xspeed, float _yspeed){
+    super (_x, _y, _xspeed, _yspeed);
   }
   
   void display(){
-    x += speed;
     ellipse(x, y, 50, 50);
   }
 }
