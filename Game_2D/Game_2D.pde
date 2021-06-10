@@ -9,10 +9,9 @@ void setup(){
 
 void draw(){
   clear();
-  v.LavDyr();
-  v.TegnDyr();
-  v.LavPlante();
-  v.TegnPlante();
+  v.LavObjekter();
+  v.TegnObjekter();
+
   
   
 }
