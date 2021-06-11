@@ -43,7 +43,7 @@ Udfra Beskrivelse liste laves der en flowchart over opgaven:
 ![image](Billeder/Flowchart.png)
 
 <h3>Design</h3>
-**Klasse/Metode Liste**
+**Klasse og Metode Liste**
 
 Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til programmet: 
 
