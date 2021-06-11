@@ -5,7 +5,6 @@ class Busk extends Plante{
   }
   
   void display(){
-    image(Busk, x, y, w, h);
-    //square(x, y, s);
+    image(busk, x, y, w, h);
   }  
 }

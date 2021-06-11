@@ -5,7 +5,6 @@ class Trae extends Plante{
   }
   
   void display(){
-    image(Trae, x, y, w, h);
-    //square(x, y, s);
+    image(trae, x, y, w, h);
   }  
 }

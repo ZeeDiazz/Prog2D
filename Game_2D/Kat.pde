@@ -5,7 +5,6 @@ class Kat extends Dyr{
   }
   
   void display(){
-    image(Kat,x, y, 25, 25);
-    //ellipse(x, y, 50, 50);
+    image(kat,x, y, 40, 30);
   }
 }

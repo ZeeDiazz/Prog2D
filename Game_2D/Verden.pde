@@ -16,11 +16,11 @@ class Verden {
       }
       //busk
      if(key == 'b' && mousePressed == true){
-       listePlante.add(new Busk(mouseX,mouseY, 4, 4, 0.008));
+       listePlante.add(new Busk(mouseX,mouseY, 20, 20, 0.008));
      }
      //træ
      if(key == 't' && mousePressed == true){
-       listePlante.add(new Trae(mouseX,mouseY, 7, 7, 0.002));
+       listePlante.add(new Trae(mouseX,mouseY, 40, 40, 0.002));
      }
      //Terain
      if(key == 's' && mousePressed == true){

@@ -5,7 +5,6 @@ class Hund extends Dyr{
   }
   
   void display(){
-    image(Hund, x, y, 25, 25);
-    //ellipse(x, y, 25, 25);
+    image(hund, x, y, 30, 33);
   }
 }

@@ -8,7 +8,6 @@ class Terrain {
   }
   
   void display(){
-   image(Trae, x, y, 25, 25);
-   //rect(x, y, 25,25);
+   image(terraen, x, y, 75, 75);
   }
 }

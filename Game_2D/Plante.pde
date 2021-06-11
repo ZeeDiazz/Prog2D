@@ -15,10 +15,10 @@ class Plante{
   }
   
   void update(){ 
-    if (w < 60){
+    if (w < 80){
       w += w*vaekst;
     }
-    if (h < 60){
+    if (h < 80){
       h += h*vaekst;
     }
   }
