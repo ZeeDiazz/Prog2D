@@ -52,4 +52,6 @@ Kollaborations-diagram:
 
 Rolle-diagram:
 
+Klassediagram:
+
 
