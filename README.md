@@ -1,5 +1,5 @@
 # Prog2D
-Udarbejdet af Victor og Zaid Kerm/It, 2.i
+Udarbejdet af Victor og Zaid Kerm/it, 2.i
 
 Arbejdet blev fordelt jævn mellem gruppemedlemer ift. OOAD og programmering. 
 
@@ -43,7 +43,7 @@ Udfra Beskrivelse liste laves der en flowchart over opgaven:
 ![image](Billeder/Flowchart.png)
 
 <h3>Design</h3>
-**Klasse/Metode liste**
+**Klasse/Metode Liste**
 
 Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til programmet: 
 
