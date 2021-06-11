@@ -1,7 +1,7 @@
 class Verden {
   ArrayList<Dyr> listeDyr = new ArrayList<Dyr>();
   ArrayList<Plante> listePlante = new ArrayList<Plante>();
-  ArrayList<Terrain> listeTerrain = new ArrayList<Terrain>();
+  ArrayList<Terraen> listeTerraen = new ArrayList<Terraen>();
   float a = -1; 
   
   void LavObjekter(){
@@ -24,17 +24,18 @@ class Verden {
      }
      //Terain
      if(key == 's' && mousePressed == true){
-        listeTerrain.add(new Terrain(mouseX,mouseY));
+        listeTerraen.add(new Terraen(mouseX,mouseY, 75,75));
      }
-     
   }
 
   void TegnObjekter() {
-    
+    iTerraen();
     //Tegner Dyr
     for (Dyr h : listeDyr){
       h.display();
       h.update();
+
+
     }
     //Tegner Plante
     for (Plante h : listePlante){
@@ -42,9 +43,24 @@ class Verden {
       h.update();
     }
     //Tegner Terrain
-    for (Terrain h : listeTerrain){
+    for (Terraen h : listeTerraen){
       h.display();
     }
   }
+  void iTerraen(){
+    for (Terraen h : listeTerraen){
+      for (Dyr d : listeDyr){
+        float r = 37.5;
   
+        if (d.y < h.y + (h.Theight - r) && d.x < h.x + (h.Twidth - r) && d.y > h.y - (h.Theight - r) && d.x > h.x - (h.Twidth - r)){
+          d.xSpeed *= 0.65;
+          d.ySpeed *= 0.65;
+       // } else {
+       //   d.xSpeed = d.tempSpeedX;
+       //   d.ySpeed = d.tempSpeedY;
+        }
+        
+      }
+    }
+  }
 }

@@ -22,7 +22,5 @@ void draw(){
   clear();
   v.LavObjekter();
   v.TegnObjekter();
-
-  
   
 }
