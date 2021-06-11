@@ -37,4 +37,5 @@ Første laves der Ting/Beskrivelse liste, her laves der en liste som beskriver, 
     Terræn		Område der kan nedsætte et dyrs bevægelseshastighed.
 
 Udfra Beskrivelse liste laves der Aktivitetsdiagram:
+![image](Flowchart.png)
 
