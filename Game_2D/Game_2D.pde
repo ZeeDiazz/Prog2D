@@ -7,7 +7,7 @@ PImage kat;
 PImage terraen;
 PImage trae;
 
-boolean visforside = true;
+boolean visForside = true;
   
 void setup(){
   size(800,800);
@@ -25,8 +25,9 @@ void setup(){
 
 void draw(){
   clear();
-  if (visforside == true) {
+  if (visForside == true) {
     fs.display();
+    fs.hjaelp();
   } else {
   v.LavObjekter();
   v.TegnObjekter();
@@ -35,6 +36,6 @@ void draw(){
 
 void keyPressed() {
   if(key == ' '){
-    visforside = false;  
+    visForside = false;  
   }
 }
