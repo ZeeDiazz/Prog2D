@@ -6,7 +6,7 @@ class Verden {
   
   void LavObjekter(){
     
-      //Dyr hund
+     //Dyr hund
      if(key == 'h' && mousePressed == true){
         listeDyr.add(new Hund(mouseX,mouseY, (random(-7,7)* -a), (random(-4,4)* -a)));
      }
@@ -14,7 +14,7 @@ class Verden {
      if(key == 'k' && mousePressed == true){
         listeDyr.add(new Kat(mouseX,mouseY, random(-4,4)* -a, random(-2,2)* -a));
       }
-      //busk
+     //busk
      if(key == 'b' && mousePressed == true){
        listePlante.add(new Busk(mouseX,mouseY, 20, 20, 0.008));
      }
@@ -52,12 +52,9 @@ class Verden {
       for (Dyr d : listeDyr){
         float r = 37.5;
   
-        if (d.y < h.y + (h.Theight - r) && d.x < h.x + (h.Twidth - r) && d.y > h.y - (h.Theight - r) && d.x > h.x - (h.Twidth - r)){
-          d.xSpeed *= 0.65;
-          d.ySpeed *= 0.65;
-       // } else {
-       //   d.xSpeed = d.tempSpeedX;
-       //   d.ySpeed = d.tempSpeedY;
+        if (d.y < h.y + (h.tHøjde - r) && d.x < h.x + (h.tBredde - r) && d.y > h.y - (h.tHøjde - r) && d.x > h.x - (h.tBredde - r)){
+          d.xFart *= 0.65;
+          d.yFart *= 0.65;
         }
         
       }

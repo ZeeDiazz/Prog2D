@@ -1,14 +1,14 @@
 class Dyr{
-  float x, y, xSpeed, ySpeed;
-  float orgSpeedX, orgSpeedY;
+  float x, y, xFart, yFart;
+  float orgFartX, orgFartY;
   
-  Dyr( float _x,float _y, float _xSpeed, float _ySpeed){
+  Dyr( float _x,float _y, float _xFart, float _yFart){
   x = _x;
   y= _y;
-  xSpeed = _xSpeed;
-  ySpeed = _ySpeed;
-  orgSpeedX = xSpeed;
-  orgSpeedY = ySpeed;
+  xFart = _xFart;
+  yFart = _yFart;
+  orgFartX = xFart;
+  orgFartY = yFart;
 
   }
   
@@ -18,17 +18,17 @@ class Dyr{
   
   
   void update(){
-    x += xSpeed;
-    y += ySpeed;
-    
+    x += xFart;
+    y += yFart;
+/*    
     if (y > height || y < 0){
      ySpeed *= -1;
     }
     
     if (x > width || x < 0){
       xSpeed *= -1;
-    }
-    xSpeed = orgSpeedX;
-    ySpeed = orgSpeedY;
+    }*/
+    xFart = orgFartX;
+    yFart = orgFartY;
   }
 }
