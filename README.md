@@ -1,5 +1,5 @@
 # Prog2D
-Udarbejdet af Victor og Zaid Kerm/it, 2.i
+Udarbejdet af Victor og Zaid Kerm/It, 2.i
 
 Arbejdet blev fordelt jævn mellem gruppemedlemer ift. OOAD og programmering. 
 
