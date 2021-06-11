@@ -51,6 +51,10 @@ Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til 
 
 **Kollaborations-diagram**
 
+**Rollem diagram**
+Under denne model arbjedes der med de classer der gør burge af nedarvning 
+![image](Billeder/Rollemodel.png)
+
 **Klassediagram:**
 ![image](Billeder/klassedia.png)
 
