@@ -1,17 +1,17 @@
 class Terraen {
   float x;
   float y;
-  float tHøjde;
+  float tHoejde;
   float tBredde;
   
-  Terraen(float _x, float _y, float _tBredde, float _tHøjde){
+  Terraen(float _x, float _y, float _tBredde, float _tHoejde){
     x = _x;
     y = _y;
-    tHøjde = _tHøjde;
+    tHoejde = _tHoejde;
     tBredde = _tBredde;
   }
   
   void display(){
-   image(terraen, x, y, tBredde, tHøjde);
+   image(terraen, x, y, tBredde, tHoejde);
   }
 }

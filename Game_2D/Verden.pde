@@ -52,7 +52,7 @@ class Verden {
       for (Dyr d : listeDyr){
         float r = 37.5;
   
-        if (d.y < h.y + (h.tHøjde - r) && d.x < h.x + (h.tBredde - r) && d.y > h.y - (h.tHøjde - r) && d.x > h.x - (h.tBredde - r)){
+        if (d.y < h.y + (h.tHoejde - r) && d.x < h.x + (h.tBredde - r) && d.y > h.y - (h.tHoejde - r) && d.x > h.x - (h.tBredde - r)){
           d.xFart *= 0.65;
           d.yFart *= 0.65;
         }
