@@ -57,5 +57,5 @@ Under denne model arbjedes der med de classer der gør burge af nedarvning. Pile
 
 **Klassediagram:**
 
-![image](Billeder/klassedia.png)
+![image](Billeder/klassedianye.png)
 
