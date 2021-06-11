@@ -1,6 +1,8 @@
 # Prog2D
 Udarbejdet af Victor og Zaid Kerm/it, 2.i
 
+Arbejdet blev fordelt jævn mellem gruppemedlemer ift. OOAD og programmering. 
+
 <h2> OOAD </h2>
 OOAD står for Objektorienteret analyse og design og består af fem trin, den første trin handler om krav til produktet. Derefter kommer man til den anden trin, som omhandler Analyse, hvor man ser på hvordan programmet virker. Derefter kommer man videre til den tredje trin, som handler om hvordan programmet kode skal se ud ift. klasser og metoder. Efter det kan man så begynde med at kode og derefter teste ens program.
 
@@ -36,5 +38,11 @@ Første laves der Ting/Beskrivelse liste, her laves der en liste som beskriver, 
     
     Terræn		Område der kan nedsætte et dyrs bevægelseshastighed.
 
-Udfra Beskrivelse liste laves der Aktivitetsdiagram:
+Udfra Beskrivelse liste laves der en flowchart over opgaven:
 ![image](Billeder/Flowchart.png)
+
+<h3>Design</h3>
+Klasse/Metode liste
+![image](Billeder/km.png)
+
+
