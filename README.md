@@ -24,6 +24,7 @@ Der arbejdes første med krav til produktet:
 
 <h3>Analyse: </h3>
 
+**Beskrivelse liste**
 Første laves der Ting/Beskrivelse liste, her laves der en liste som beskriver, hvad programmet skal indholde:
 
     Forside         En forside som vil indholde knapperne Spil og hjælp.
@@ -42,14 +43,14 @@ Udfra Beskrivelse liste laves der en flowchart over opgaven:
 ![image](Billeder/Flowchart.png)
 
 <h3>Design</h3>
-Klasse/Metode liste
+**Klasse/Metode liste**
 
 Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til programmet: 
 
 ![image](Billeder/km.png)
 
-Kollaborations-diagram:
+**Kollaborations-diagram**
 
-Klassediagram:
+**Klassediagram:**
 ![image](Billeder/klassedia.png)
 
