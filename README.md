@@ -49,13 +49,13 @@ Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til 
 
 ![image](Billeder/km.png)
 
-**Kollaborations-diagram**
-
 **Rollem diagram**
 
-Under denne model arbjedes der med de classer der gør burge af nedarvning 
+Under denne model arbjedes der med de classer der gør burge af nedarvning. Pilene er også tomme, som betyder at den "er en" altså burger nedarvning:
+
 ![image](Billeder/Rollemodel.png)
 
 **Klassediagram:**
+
 ![image](Billeder/klassedia.png)
 
