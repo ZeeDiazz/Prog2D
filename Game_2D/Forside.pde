@@ -1,5 +1,5 @@
 class Forside {
-  
+  //Metode
   void display(){
   rectMode(CENTER);
   noStroke();

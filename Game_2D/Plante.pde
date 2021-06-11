@@ -1,6 +1,7 @@
 class Plante{
+  //Data
   float x, y, w, h, vaekst;
-  
+  //Konstruktør
   Plante( float _x,float _y, float _w, float _h, float _vaekst){
   x = _x;
   y = _y;
@@ -9,7 +10,7 @@ class Plante{
   vaekst = _vaekst;
 
   }
-  
+  //Metode
   void display() {
    background(64);
   }

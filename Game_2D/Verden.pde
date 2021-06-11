@@ -29,30 +29,30 @@ class Verden {
   }
 
   void TegnObjekter() {
+    //collision
     iTerraen();
     //Tegner Dyr
-    for (Dyr h : listeDyr){
-      h.display();
-      h.update();
-
-
+    for (Dyr d : listeDyr){
+      d.display();
+      d.update();
     }
     //Tegner Plante
-    for (Plante h : listePlante){
-      h.display();
-      h.update();
+    for (Plante p : listePlante){
+      p.display();
+      p.update();
     }
     //Tegner Terrain
-    for (Terraen h : listeTerraen){
-      h.display();
+    for (Terraen t : listeTerraen){
+      t.display();
     }
   }
   void iTerraen(){
-    for (Terraen h : listeTerraen){
+    for (Terraen t : listeTerraen){
       for (Dyr d : listeDyr){
+        // float r er terraens radius
         float r = 37.5;
-  
-        if (d.y < h.y + (h.tHoejde - r) && d.x < h.x + (h.tBredde - r) && d.y > h.y - (h.tHoejde - r) && d.x > h.x - (h.tBredde - r)){
+        //hvis dyr rammer terraens midtpunkt/radius så skal den gå langsommere
+        if (d.y < t.y + (t.tHoejde - r) && d.x < t.x + (t.tBredde - r) && d.y > t.y - (t.tHoejde - r) && d.x > t.x - (t.tBredde - r)){
           d.xFart *= 0.65;
           d.yFart *= 0.65;
         }
