@@ -43,13 +43,13 @@ Udfra Beskrivelse liste laves der en flowchart over opgaven:
 ![image](Billeder/Flowchart.png)
 
 <h3>Design</h3>
-**Klasse/Metode Liste**
+**Klasse-Metode Liste**
 
 Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til programmet: 
 
 ![image](Billeder/km.png)
 
-**Rollem diagram**
+**Rolle diagram**
 
 Under denne model arbjedes der med de classer der gør burge af nedarvning. Pilene er også tomme, som betyder at den "er en" altså burger nedarvning:
 
