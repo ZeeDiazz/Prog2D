@@ -56,6 +56,6 @@ Under denne model arbjedes der med de classer der gør burge af nedarvning. Pile
 ![image](Billeder/Rollemodel.png)
 
 **Klassediagram:**
-
+Her blevet der lavet en klassediagram over programmet, hvor der bruges både "Har en" og "Er en". "Har en" står for at den bruger den, hvor "Er en" bruges til dem der bruger nedarvning. Et klassediagram viser forskellige klasser, som giver et overblik over hvordan koden skal opbygges. Dette gør det lettere at kode ens kode. Disse klasser indeholder ”Data”, ”Konstruktør” og ”Metoder”. “Data” kan for eksempel forekomme som int eller float. En “Konstruktør” bliver kun kaldt en gang og er også en metode. Dog er en ”Metode” meget anderledes, da den bliver kaldt flere gang. Efter at bearbejde et klassediagram, kan man begynde med at kode sit program.
 ![image](Billeder/klassedianye.png)
 
