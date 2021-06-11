@@ -50,8 +50,6 @@ Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til 
 
 Kollaborations-diagram:
 
-Rolle-diagram:
-
 Klassediagram:
-
+![image](Billeder/klassedia.png)
 
