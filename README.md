@@ -44,6 +44,12 @@ Udfra Beskrivelse liste laves der en flowchart over opgaven:
 <h3>Design</h3>
 Klasse/Metode liste
 
+Her bliver der arbjedet med de klasser, samt hvilke metoder som skal bruges til programmet: 
+
 ![image](Billeder/km.png)
+
+Kollaborations-diagram:
+
+Rolle-diagram:
 
 
