@@ -20,7 +20,7 @@ class Verden {
      }
      //træ
      if(key == 't' && mousePressed == true){
-       listePlante.add(new Trae(mouseX,mouseY, 40, 40, 0.002));
+       listePlante.add(new Trae(mouseX,mouseY, 35, 40, 0.002));
      }
      //Terain
      if(key == 's' && mousePressed == true){

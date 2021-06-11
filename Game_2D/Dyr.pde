@@ -1,11 +1,12 @@
 class Dyr{
-  float x, y, xspeed, yspeed;
+  float x, y, xSpeed, ySpeed;
+  boolean iTerraen = false;
   
-  Dyr( float _x,float _y, float _xspeed, float _yspeed){
+  Dyr( float _x,float _y, float _xSpeed, float _ySpeed){
   x = _x;
   y= _y;
-  xspeed = _xspeed;
-  yspeed = _yspeed;
+  xSpeed = _xSpeed;
+  ySpeed = _ySpeed;
 
   }
   
@@ -14,15 +15,20 @@ class Dyr{
   }
   
   void update(){
-    x += xspeed;
-    y += yspeed;
+    if (iTerraen == false){
+    x += xSpeed;
+    y += ySpeed;
+    } else {
+      x += xSpeed*0.5;
+      y += xSpeed*0.5;
+    }
     
     if (y > height || y < 0){
-     yspeed *= -1;
+     ySpeed *= -1;
     }
     
     if (x > width || x < 0){
-      xspeed *= -1;
+      xSpeed *= -1;
     }
   }
 }
